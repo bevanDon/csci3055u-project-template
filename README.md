@@ -1,7 +1,7 @@
 # _SCALA_
 
-_Bevan Donbosco_
-_bevan.donbosco@uoit.net_
+>_Bevan Donbosco_
+>_bevan.donbosco@uoit.net_
 
 
 ## About the language
