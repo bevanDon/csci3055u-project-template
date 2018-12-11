@@ -57,8 +57,16 @@ to the syntax when the function is declared and when variables are declared
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+> _Kotlin standard library provides
+
+> - the use of extensions from the JDK which help with file mangement, I/O and threading
+
+> - There are many tools available for data management. We are allowed to create our own datatypes as well as the ability to easily work with strings and char sequences
+
+> - Allows for High-Order functions using patterns such as APPLY, RUN, WHERE, WITH, ALSO etc..
+
+> - Allows for lazy sequences similar to Lisp and extensive function for querying operations
+
 
 ## About open source library
 
