@@ -83,7 +83,7 @@ tailrec fun  findPoint(x: Double = 1.0): Double
 
 >_Kotlin poet_
 >_https://github.com/square/kotlinpoet_
-> -   Kotlin poet is an open source library that cangenerate source files when doing things such as annotation processing or interacting with data files
+> - Kotlin poet is an open source library that cangenerate source files when doing things such as annotation processing or interacting with data files
 > - Eliminates writing "template code" in larger projects saving you time
  > a simple example
  ```kotlin
