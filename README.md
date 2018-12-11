@@ -27,7 +27,7 @@
 
 > _give some code snippet of the language_
 
-*Let form*
+*Look at *
 
 ```kotlin
 fun printval(val1: String, val2: String) {
@@ -44,7 +44,8 @@ fun printval(val1: String, val2: String) {
     }    
 }
 ```
-
+> - Here we can see code similiar to java with the if/else syntax as well as the println. However we also see slight variations
+to the syntax when the function is declared and when variables are declared
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
