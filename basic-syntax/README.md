@@ -1,2 +1,1 @@
-This folder includes the sample code to illustrate
-the basic syntax of the language.
+ basic functions and declaration in kotlin
