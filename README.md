@@ -177,11 +177,11 @@ fun main(args: Array<String>) {
 3.Symbol resolution and its support for closure
 > - Since Kotlin uses JVM we have HARD keywords, these can only be used as keyword and not identifiers
 EX.As,Break,class,do etc
-> -Soft keywords, act as keyword and can also be used as identifiers
+> - Soft keywords, act as keyword and can also be used as identifiers
 EX.By,Catch,delegate etc
-> -Modifier keywords,acts as key words in a modifier list of declarations
+> - Modifier keywords,acts as key words in a modifier list of declarations
 EX.Actual,Abstract,const etc
-> -Many of kotlins keyword synax is similiar to Java
+> - Many of kotlins keyword synax is similiar to Java
 
 4.Scoping rules supported by the language: lexical vs dynamic scoping
 > - In kotlin we have the ability to use OOP and lambda functions because of this we have a lot of versatility in scoping
