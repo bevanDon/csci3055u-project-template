@@ -184,7 +184,7 @@ EX.Actual,Abstract,const etc
 > -Many of kotlins keyword synax is similiar to Java
 
 4.Scoping rules supported by the language: lexical vs dynamic scoping
-> -In kotlin we have the ability to use OOP and lambda functions because of this we have a lot of versatility in scoping
+> - In kotlin we have the ability to use OOP and lambda functions because of this we have a lot of versatility in scoping
 Here we are using both the dynamic capabilities of OOP and lambda functions. Also it is important to note that variables labelled as Val cannot be changed once stated. 
 ```kotlin
 fun main(args: Array<String>) {
@@ -224,7 +224,7 @@ fun lexical() {
 ```
 
 5.Functional programming constructs either as part of the language or supported by the standard library of the runtime.
-> -Kotlin offers  first class  functional support this is again inspired Java however it was created with support in mind and this resulted better support generally speaking. Additionly, this is better support for refactoring blocs of code.
+> - Kotlin offers  first class  functional support this is again inspired Java however it was created with support in mind and this resulted better support generally speaking. Additionly, this is better support for refactoring blocs of code.
 *We can observe*
 ```kotlin 
 class MyClass {
