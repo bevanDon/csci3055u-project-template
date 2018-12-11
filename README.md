@@ -10,6 +10,8 @@
 
 > - Kotlin is a statically typed programming language that runs on the Java virtual machine. It share similarities to Java but has unique feature implemented to fit a niche similar to scala. It also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. It is a language that can both use OOP and lambda functions  It is created by and endorsed by JetBrains. It primary development team from Jetbrains is from saint Peterburg,Russia
 > - History
+> - Kotlin was first shown in july 2011 by Jetbrains a language for the JVM that had been in development for over a year. Then in 2016 the first version of Kotlin was released, Kotlin V1.0. This was considered the first stable release of Kotlin. It was soon announced that Kotlin would support backwards compatibility and in 2017 google announced they would release support for Kotlin on Android development. 
+
 > - Some interesting features
 
 ## About the syntax
