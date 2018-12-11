@@ -244,4 +244,10 @@ note that we are using high order functions
 
 6.Its type system: static vs dynamic types
 > Kotlin is a statically type programming language.Therefore it verifys and enforces the constraints type at run time checking to see if all datatypes make sense, this improves run time compared to dynamic typed languages. It is important to note Kotlin does not support static type functions
+```kotlin
+var changable= 10 // can be changed beacuse of var
+var still_changable: Int= Int.MAX_VALUE // creates a new datatype that is changable
+val can_not_change=5 // val cannot be changed
+
+```
 
