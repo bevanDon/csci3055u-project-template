@@ -81,7 +81,7 @@ tailrec fun  findPoint(x: Double = 1.0): Double
 
 ## About open source library
 
->_Kotlin poet_
+>Kotlin poet
 >_https://github.com/square/kotlinpoet_
 > - Kotlin poet is an open source library that cangenerate source files when doing things such as annotation processing or interacting with data files
 > - Eliminates writing "template code" in larger projects saving you time
@@ -181,7 +181,7 @@ EX.As,Break,class,do etc
 EX.By,Catch,delegate etc
 > - Modifier keywords,acts as key words in a modifier list of declarations
 EX.Actual,Abstract,const etc
-> - Many of kotlins keyword synax is similiar to Java
+> - Many of kotlin keyword syntax is similiar to Java
 
 4.Scoping rules supported by the language: lexical vs dynamic scoping
 > - In kotlin we have the ability to use OOP and lambda functions because of this we have a lot of versatility in scoping
