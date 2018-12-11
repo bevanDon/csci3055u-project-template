@@ -174,4 +174,5 @@ fun main(args: Array<String>) {
 ```
 > - Since Kotlin is using JVM it can use many of the meta programming techniques that are normally in java
 
+3.Symbol resolution and its support for closure
 
