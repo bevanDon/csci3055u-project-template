@@ -225,7 +225,8 @@ fun lexical() {
 
 5.Functional programming constructs either as part of the language or supported by the standard library of the runtime.
 > -Kotlin offers  first class  functional support this is again inspired Java however it was created with support in mind and this resulted better support generally speaking. Additionly, this is better support for refactoring blocs of code.
-```kotlinclass MyClass {
+```kotlin 
+class MyClass {
     fun test() {
         val str: String = "hello"
         val result = str.let  // note we can replace let with run with apply and also
