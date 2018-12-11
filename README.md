@@ -1,7 +1,7 @@
 # _Kotlin_
 
->_Bevan Donbosco_
->_bevan.donbosco@uoit.net
+>_Bevan Donbosco._
+>_bevan.donbosco@uoit.net._
 
 
 ## About the language
