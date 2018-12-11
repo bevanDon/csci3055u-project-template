@@ -175,4 +175,51 @@ fun main(args: Array<String>) {
 > - Since Kotlin is using JVM it can use many of the meta programming techniques that are normally in java
 
 3.Symbol resolution and its support for closure
+> - Since Kotlin uses JVM we have HARD keywords, these can only be used as keyword and not identifiers
+EX.As,Break,class,do etc
+> -Soft keywords, act as keyword and can also be used as identifiers
+EX.By,Catch,delegate etc
+> -Modifier keywords,acts as key words in a modifier list of declarations
+EX.Actual,Abstract,const etc
+> -Many of kotlins keyword synax is similiar to Java
+
+4.Scoping rules supported by the language: lexical vs dynamic scoping
+> -In kotlin we have the ability to use OOP and lambda functions because of this we have a lot of versatility in scoping
+Here we are using both the dynamic capabilities of OOP and lambda functions. Also it is important to note that variables labelled as Val cannot be changed once stated. 
+```kotlin
+fun main(args: Array<String>) {
+   var different_scoping = Outer.Nested().scoping()
+
+   print(different_scoping)
+   different_scoping = second_scope()
+   print(different_scoping)
+}
+class Outer {
+   class Nested {
+       fun scoping() = "can be seen"
+   }
+}
+
+fun second_scope()= "still allowed"
+```
+```kotlin
+Output
+can be seen
+still allowed
+```
+
+Additionally when working with classes we have four different modifiers.
+ Public, which is the default modifier that allows any program that create an object to view public items.
+ Private which will allow only members inside the class to view. 
+Protected same as private however subclass can view as well
+Internal any outside class who sees the declaring class sees the internal members
+```kotlin
+fun lexical() {
+   val in_bounds = 5
+   run {
+       val in_run = 10
+       // In_bounds and in_run can be accessed here
+   }
+   // only in_bounds can be accessed here, in_run is outside the scope
+```
 
