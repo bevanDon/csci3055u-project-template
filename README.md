@@ -7,7 +7,7 @@
 ## About the language
 
 > _Describe the language_
->Kotlin is a statically typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. It is a language that can both use OOP and lambda functions  It is sponsored and developed by JetBrains. It primary development team from Jetbrains is from saint Peterburg,Russia
+>-Kotlin is a statically typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. It is a language that can both use OOP and lambda functions  It is sponsored and developed by JetBrains. It primary development team from Jetbrains is from saint Peterburg,Russia
 > - History
 > - Some interesting features
 
