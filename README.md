@@ -81,8 +81,8 @@ tailrec fun  findPoint(x: Double = 1.0): Double
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+>_Kotlin poet_
+>_https://github.com/square/kotlinpoet_
 
 # Analysis of the language
 
