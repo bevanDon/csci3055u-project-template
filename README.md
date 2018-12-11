@@ -57,7 +57,7 @@ to the syntax when the function is declared and when variables are declared
 
 ## About the standard library
 
-> _ Kotlin standard library provides
+> _Kotlin standard library provides
 
 > - the use of extensions from the JDK which help with file mangement, I/O and threading
 
