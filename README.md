@@ -48,7 +48,12 @@ fun printval(val1: String, val2: String) {
 to the syntax when the function is declared and when variables are declared
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+> _ Kotlin design allows for compliation where virtual machines are not needed. It helps resolves the issue where developers need to create a  self-contained program that does not require a virtual machine. Additionally Kotlin supports two-way interoperability this allows Kotlin to  be
+> - executable on multiple platforms
+> - A framework for apple projects using  C  or swift
+> - Use static or dynamic libraries
+> - Can be used in projects with multiple different languages
+
 
 ## About the standard library
 
