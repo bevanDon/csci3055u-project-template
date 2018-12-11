@@ -121,7 +121,7 @@ val file = FileSpec.builder("", "HelloWorld")
 
 file.writeTo(System.out)
  ```
-> _Kotlin poet also implements a unqiue function KModifier.ABSTRACT to get a function without any body
+> Kotlin poet also implements a unqiue function KModifier.ABSTRACT to get a function without any body
 >With this
 ```kotlin
 val flux = FunSpec.builder("flux")
