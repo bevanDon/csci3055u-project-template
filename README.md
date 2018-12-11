@@ -172,5 +172,6 @@ fun main(args: Array<String>) {
    println(d)
 }
 ```
+> - Since Kotlin is using JVM it can use many of the meta programming techniques that are normally in java
 
 
