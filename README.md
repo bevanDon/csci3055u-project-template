@@ -223,3 +223,4 @@ fun lexical() {
    // only in_bounds can be accessed here, in_run is outside the scope
 ```
 
+5.Functional programming constructs either as part of the language or supported by the standard library of the runtime.
