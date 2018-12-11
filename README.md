@@ -96,6 +96,7 @@ tailrec fun  findPoint(x: Double = 1.0): Double
 fun main(vararg args: String) {
   Greeter(args[0]).greet()
 }
+
  ```
  >can become
  ```kotlin
@@ -143,7 +144,7 @@ abstract class HelloWorld {
 > 1.The style of programming supported by the language: functional vs procedural programming
 > - Kotlin supports both procedural programming and functional programming
 *An example of functional programming*
-``kotlin
+```kotlin
 fun <T : Comparable<T>> List<T>.quickSort(): List<T> =
     if(size < 2) this
     else {
