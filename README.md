@@ -29,10 +29,20 @@
 
 *Let form*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```kotlin
+fun printval(val1: String, val2: String) {
+    val x = parseInt(val1)
+    val y = parseInt(val2)
+
+  
+    if (x != null && y != null) {
+        
+        println(x * y)
+    }
+    else {
+        println("either '$arg1' or '$arg2' is not a number")
+    }    
+}
 ```
 
 ## About the tools
