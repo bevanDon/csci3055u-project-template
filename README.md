@@ -13,6 +13,15 @@
 > - Kotlin was first shown in july 2011 by Jetbrains a language for the JVM that had been in development for over a year. Then in 2016 the first version of Kotlin was released, Kotlin V1.0. This was considered the first stable release of Kotlin. It was soon announced that Kotlin would support backwards compatibility and in 2017 google announced they would release support for Kotlin on Android development. 
 
 > - Some interesting features
+> - Kotlin features collection featuring, Kotlin has a built in collection system that is comparable to swift.
+
+> - Kotlin has lazy loading features for android development, it is heavily used to reduce app startup time
+
+> - Kotlin is an Open source programming language
+
+> - Kotlin support full Java interoperability. Kotlins runs on JVM and support java libraries and tools
+ 
+
 
 ## About the syntax
 
