@@ -161,5 +161,16 @@ for (i in 1..5) {
     println(i)
 }
  ```
+2.The ability to perform meta-programming such as macros
+> - Kotlin allows the user to modify the language, we are able to create new variable types 
+
+```kotlin
+infix fun Double.pwr(exp: Double) = Math.pow(this, exp)
+ 
+fun main(args: Array<String>) {
+   val d = 5.0 pwr 10.0
+   println(d)
+}
+```
 
 
