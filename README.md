@@ -140,7 +140,24 @@ abstract class HelloWorld {
 ```
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+> 1.The style of programming supported by the language: functional vs procedural programming
+> - Kotlin supports both procedural programming and functional programming
+*An example of functional programming*
+``kotlin
+fun <T : Comparable<T>> List<T>.quickSort(): List<T> =
+    if(size < 2) this
+    else {
+        val pivot = first()
+        val (smaller, greater) = drop(1).partition { it <= pivot}
+        smaller.quickSort() + pivot + greater.quickSort()
+    }
+```
+ *example of procedural programming
+ ```kotlin
+ for (item in collection) print(item) 
+for (i in 1..5) {
+    println(i)
+}
+ ```
 
 
