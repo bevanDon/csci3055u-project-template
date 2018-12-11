@@ -27,7 +27,7 @@
 
 > _give some code snippet of the language_
 
-*Look at *
+*Look at*
 
 ```kotlin
 fun printval(val1: String, val2: String) {
@@ -57,7 +57,7 @@ to the syntax when the function is declared and when variables are declared
 
 ## About the standard library
 
-> _Kotlin standard library provides
+> Kotlin standard library provides
 
 > - the use of extensions from the JDK which help with file mangement, I/O and threading
 
