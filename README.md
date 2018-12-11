@@ -251,3 +251,15 @@ val can_not_change=5 // val cannot be changed
 
 ```
 
+7.Strengths and weaknesses of the language
+PROS
+> -Increase efficiency beacuse of it's intuitive it take less time and fewer liner to implement working code
+> -Can be compiled with Java
+> -Can be used in frameworks in programs with multiple languages
+> -It is easily maintainable offering many toolkits to help maintain your code
+
+CONS
+> -Does not include namespaces beacuse it keeps functions and values at the top level
+> -May seem too similiar to Scala
+> -Can not create static type function
+> -Since it is a new language there are few experts and online resources for the language
