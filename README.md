@@ -83,7 +83,61 @@ tailrec fun  findPoint(x: Double = 1.0): Double
 
 >_Kotlin poet_
 >_https://github.com/square/kotlinpoet_
+> -   Kotlin poet is an open source library that cangenerate source files when doing things such as annotation processing or interacting with data files
+> - Eliminates writing "template code" in larger projects saving you time
+ > a simple example
+ ```kotlin
+ class Greeter(val name: String) {
+  fun greet() {
+    println("Hello, $name")
+  }
+}
 
+fun main(vararg args: String) {
+  Greeter(args[0]).greet()
+}
+ ```
+ >can become
+ ```kotlin
+ val greeterClass = ClassName("", "Greeter")
+val file = FileSpec.builder("", "HelloWorld")
+    .addType(TypeSpec.classBuilder("Greeter")
+        .primaryConstructor(FunSpec.constructorBuilder()
+            .addParameter("name", String::class)
+            .build())
+        .addProperty(PropertySpec.builder("name", String::class)
+            .initializer("name")
+            .build())
+        .addFunction(FunSpec.builder("greet")
+            .addStatement("println(%P)", "Hello, \$name")
+            .build())
+        .build())
+    .addFunction(FunSpec.builder("main")
+        .addParameter("args", String::class, VARARG)
+        .addStatement("%T(args[0]).greet()", greeterClass)
+        .build())
+    .build()
+
+file.writeTo(System.out)
+ ```
+> _Kotlin poet also implements a unqiue function KModifier.ABSTRACT to get a function without any body
+>With this
+```kotlin
+val flux = FunSpec.builder("flux")
+    .addModifiers(KModifier.ABSTRACT, KModifier.PROTECTED)
+    .build()
+
+val helloWorld = TypeSpec.classBuilder("HelloWorld")
+    .addModifiers(KModifier.ABSTRACT)
+    .addFunction(flux)
+    .build()
+```
+>will result in
+```kotlin
+abstract class HelloWorld {
+    protected abstract fun flux()
+}
+```
 # Analysis of the language
 
 > _Organize your report according to the project description
