@@ -232,9 +232,9 @@ class MyClass {
         val str: String = "hello"
         val result = str.let  // note we can replace let with run with apply and also
         {
-            print(this) // Receiver
-            print(it) // Argument
-            42 // Block return value
+            print(this) 
+            print(it) 
+          
         }
     }
 }
