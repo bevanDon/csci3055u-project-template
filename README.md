@@ -57,7 +57,7 @@ to the syntax when the function is declared and when variables are declared
 
 ## About the standard library
 
-> _Kotlin standard library provides
+> _ Kotlin standard library provides
 
 > - the use of extensions from the JDK which help with file mangement, I/O and threading
 
@@ -67,6 +67,18 @@ to the syntax when the function is declared and when variables are declared
 
 > - Allows for lazy sequences similar to Lisp and extensive function for querying operations
 
+> - Allows for tail recursive functions
+
+
+```kotlin
+     var half_double: Double= Double.MAX_VALUE/2
+```
+```kotlin
+   val eps = 1E-5
+
+tailrec fun  findPoint(x: Double = 1.0): Double
+        = if (Math.abs(x - Math.cos(x)) < eps) x else findPoint(Math.cos(x))
+```
 
 ## About open source library
 
