@@ -1,7 +1,7 @@
 # _Kotlin_
 
-> _Bevan Donbosco 100618701
-> _bevan.donbosco@uoit.net
+> Bevan Donbosco 100618701
+> bevan.donbosco@uoit.net
 
 
 ## About the language
