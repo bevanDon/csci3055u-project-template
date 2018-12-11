@@ -153,7 +153,7 @@ fun <T : Comparable<T>> List<T>.quickSort(): List<T> =
         smaller.quickSort() + pivot + greater.quickSort()
     }
 ```
- *example of procedural programming
+ *example of procedural programming*
  ```kotlin
  for (item in collection) print(item) 
 for (i in 1..5) {
