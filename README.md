@@ -141,7 +141,7 @@ abstract class HelloWorld {
 ```
 # Analysis of the language
 
-> 1.The style of programming supported by the language: functional vs procedural programming
+1.The style of programming supported by the language: functional vs procedural programming
 > - Kotlin supports both procedural programming and functional programming
 
 *An example of functional programming*
